@@ -261,7 +261,7 @@ class CreateProduct extends React.Component {
                             required
                             id="unit"
                             value={this.state.unit}
-                            label="Unit, Required"
+                            label="Unit"
                             style={{ margin: 8 }}
                             placeholder="Unit"
                             fullWidth

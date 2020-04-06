@@ -237,7 +237,7 @@ class EditProduct extends React.Component {
                 alignContent="center"
             >
                 <Grid item>
-                    <h1>Edit product</h1>
+                    <h1>Edit Product</h1>
                 </Grid>
                 <Grid item>
                     <ListErrors errors={this.state.errors} />
@@ -289,7 +289,7 @@ class EditProduct extends React.Component {
                             required
                             id="unit"
                             value={this.state.unit}
-                            label="Unit, Required"
+                            label="Unit"
                             style={{ margin: 8 }}
                             placeholder="Unit"
                             fullWidth
